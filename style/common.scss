@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html {
+  min-width: 375px;
+}
+.title {
+  font-family: "Poppins-Regular.ttf";
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.conteiner {
+  width: 351px;
+  margin: 0 auto;
+}
+.services__box-title {
+  font-family: "Poppins-Regular.ttf";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+@media screen and (min-width: 1440px) 
+{
+  
+}

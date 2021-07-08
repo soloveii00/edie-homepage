@@ -1,0 +1,81 @@
+.footer {
+  background-color: #100e1d;
+  &__link {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+    padding-top: 35px;
+  }
+  &__link-item {
+    font-family: "Poppins-Regular.ttf";
+    font-size: 18px;
+    line-height: 200%;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 29px;
+  }
+  &__social {
+    margin-left: 29px;
+    margin-bottom: 60px;
+  }
+  &__social-logo {
+    font-family: "Heebo-Regular.ttf";
+    font-size: 36px;
+    line-height: 53px;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  &__social-img {
+  }
+  &__social-img-svg {
+  }
+  &__contact-text {
+    font-family: "Poppins-Regular.ttf";
+    font-size: 10px;
+    line-height: 15px;
+    color: #828282;
+    margin-left: 29px;
+  }
+  &__form {
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 8px 0px;
+    width: 291px;
+    margin-left: 29px;
+    margin-bottom: 150px;
+  }
+  &__form-text {
+    font-family: "Poppins-Regular.ttf";
+    font-size: 14px;
+    line-height: 21px;
+    color: #bdbdbd;
+    border: none;
+    background-color: #f2f2f2;
+    padding-left: 19px;
+  }
+  &__form-submit {
+    font-family: "Poppins-Regular.ttf";
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    color: #fff;
+    background-color: #2d9cdb;
+    border-radius: 12px;
+    padding: 9px 21px;
+    margin-left: 46px;
+  }
+  &__copyright {
+    font-family: "Montserrat-Regular.ttf";
+    font-size: 14px;
+    line-height: 17px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 23px;
+  }
+  &__copyright-link {
+    text-decoration: underline;
+  }
+}
